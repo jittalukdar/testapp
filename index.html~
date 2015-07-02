@@ -4,7 +4,7 @@
       <head>
         <title>Media Example</title>
 
-        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 	<script src="jquery-1.11.2.min.js"></script> 
         <script type="text/javascript" charset="utf-8">
 
@@ -15,6 +15,7 @@
         // device APIs are available
         //
         function onDeviceReady() {
+		alert("hello");
             playAudio("http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3");
         }
 
